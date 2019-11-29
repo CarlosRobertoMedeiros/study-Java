@@ -1,4 +1,4 @@
-package br.com.roberto.designpatterns.strategy;
+package br.com.roberto.designpatternsgof.comportamental.strategy;
 
 public class ISS implements Imposto {
 
