@@ -13,14 +13,12 @@ public class Pizza implements Pedido{
 
 	@Override
 	public double getPreco() {
-		// TODO Auto-generated method stub
-		return 0;
+		return this.preco;
 	}
 
 	@Override
 	public String getTipo() {
-		// TODO Auto-generated method stub
-		return null;
+		return this.tipo;
 	}
 
 }
