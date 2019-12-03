@@ -7,6 +7,9 @@ Novidades Técnicas Java 8
 
 Padrões de Projetos (GOF) => 1977
 
+	Implementação de Exemplos Simples de Padrões de Projetos
+
+	
 	Padrões Comportamentais
 		- Strategy
 		- Chain Of Responsability
@@ -15,6 +18,9 @@ Padrões de Projetos (GOF) => 1977
 
 	Padrões Estruturais 
 		- Decorator
+
+	Padrões Criacionais
+		- Builder
 
 
 
