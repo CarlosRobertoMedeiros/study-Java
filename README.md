@@ -31,6 +31,7 @@ Padrões de Projetos (GOF) => 1977
 
 	Padrões Criacionais
 		- Builder
+		- Factory(Singleton de Conexão)
 
 
 
