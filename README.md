@@ -28,6 +28,7 @@ Padrões de Projetos (GOF) => 1977
 
 	Padrões Estruturais 
 		- Decorator
+		- FlyWeight
 
 	Padrões Criacionais
 		- Builder
