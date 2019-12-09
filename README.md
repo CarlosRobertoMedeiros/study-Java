@@ -25,12 +25,15 @@ Padrões de Projetos (GOF) => 1977
 		- Template Method
 		- State
 		- Observer
-		- Interpreter 
+		- Interpreter
+		- Visitor 
 
 	Padrões Estruturais 
 		- Decorator
 		- FlyWeight
 		- Memento
+		- Adapter
+		- Bridge
 
 	Padrões Criacionais
 		- Builder
