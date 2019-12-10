@@ -44,4 +44,7 @@ Padrões de Projetos (GOF) => 1977
 
 
 
-Padrões de Projetos (GRASP) - Elaborando Melhor as Responsabilidades
+	GRASP - General Responsibility Assignment Software Patterns (ou principles)
+		- Diretivas para atribuir responsabilidade a Classes e Objetos em Projetos Orientado a Objetos e SOLID
+
+		- Implementando Uma refatoração com Coesão e o Princípio de Responsabilidade Única
