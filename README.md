@@ -27,6 +27,7 @@ Padrões de Projetos (GOF) => 1977
 		- Observer
 		- Interpreter
 		- Visitor 
+		- Command
 
 	Padrões Estruturais 
 		- Decorator
@@ -34,10 +35,12 @@ Padrões de Projetos (GOF) => 1977
 		- Memento
 		- Adapter
 		- Bridge
+		- Facade(Ideia)
 
 	Padrões Criacionais
 		- Builder
 		- Factory(Singleton de Conexão)
+		- Singleton(Ideia que fiz aliada ao Facade)
 
 
 
