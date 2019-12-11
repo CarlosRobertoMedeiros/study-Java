@@ -43,8 +43,8 @@ Padrões de Projetos (GOF) => 1977
 		- Singleton(Ideia que fiz aliada ao Facade)
 
 
-
 	GRASP - General Responsibility Assignment Software Patterns (ou principles)
-		- Diretivas para atribuir responsabilidade a Classes e Objetos em Projetos Orientado a Objetos e SOLID
-
-		- Implementando Uma refatoração com Coesão e o Princípio de Responsabilidade Única
+		- Utilizando acrônimo SOLID 
+	
+		- Implementando Uma refatoração simples de opções salariais mostrando o SRP = Simple Responsability Principle = Princípio de Responsabilidade Única ou Coesão
+		- Implementando Uma refatoração diminuindo o acoplamento para uma interface mais estável(Programe Para Interface) = 
