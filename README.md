@@ -48,3 +48,6 @@ Padrões de Projetos (GOF) => 1977
 	
 		- Implementando Uma refatoração simples de opções salariais mostrando o SRP = Simple Responsability Principle = Princípio de Responsabilidade Única ou Coesão
 		- Implementando Uma refatoração diminuindo o acoplamento para uma interface mais estável(Programe Para Interface) = 
+		- Implementando Uma refatoração utilizando OCP -> Open Closed Principle and DIP -> Dependency Inversal Principle 
+			OCP = Classe Aberta para Evolução(Interfaces) e Fechada para Modificação 
+			DIP = Inversão da Dependência(Dependendo de Abrstrações)
