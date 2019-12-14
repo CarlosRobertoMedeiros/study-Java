@@ -51,3 +51,11 @@ Padrões de Projetos (GOF) => 1977
 		- Implementando Uma refatoração utilizando OCP -> Open Closed Principle and DIP -> Dependency Inversal Principle 
 			OCP = Classe Aberta para Evolução(Interfaces) e Fechada para Modificação 
 			DIP = Inversão da Dependência(Dependendo de Abrstrações)
+		- Implementando Um exemplo Melhor elaborado com Encapsulamento
+		- Implementando uma composição de Objetos Utilizando o princípio LSP
+			LSP = Liskov Substitute Principle
+
+	Trabalhando com Testes Unitários
+
+	
+
