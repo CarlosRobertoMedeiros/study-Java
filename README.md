@@ -55,6 +55,11 @@ Padrões de Projetos (GOF) => 1977
 		- Implementando uma composição de Objetos Utilizando o princípio LSP
 			LSP = Liskov Substitute Principle
 
+	Criando Um CRUD Simples sem Front End Para realização de Testes Unitários
+		- Crud de Usuários 
+			- Usando JDBC 4.2
+
+
 	Trabalhando com Testes Unitários
 
 	

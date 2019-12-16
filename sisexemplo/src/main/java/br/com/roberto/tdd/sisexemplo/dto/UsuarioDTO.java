@@ -59,5 +59,10 @@ public class UsuarioDTO {
 	public void setSituacao(String situacao) {
 		this.situacao = situacao;
 	}
+	
+	@Override
+	public String toString() {
+		return this.id+" "+this.nome;
+	}
 
 }
