@@ -2,29 +2,40 @@ package br.com.roberto.tdd.sisexemplo.teste;
 
 import java.util.List;
 
+import br.com.roberto.tdd.sisexemplo.dao.UsuarioDAO;
 import br.com.roberto.tdd.sisexemplo.dao.UsuarioDAOImpl;
-import br.com.roberto.tdd.sisexemplo.dto.UsuarioDTO;
 import br.com.roberto.tdd.sisexemplo.model.Usuario;
 
 public class TestaUsuario {
 
 	public static void main(String[] args) {
 		
-//		Usuario usuario = new Usuario("Carlos Roberto Medeiros de Lima", "11111111111", "roberto@esqueci.com", "55-XX-1111-1111");
-//		UsuarioDAO usuarioDAO = new UsuarioDAO();
+//      Incluir
+//		Usuario usuario = new Usuario("Matheus Alves Medeiros de Lima", "33333333333", "matheus@esqueci.com", "55-XX-3333-3333");
+//		UsuarioDAO usuarioDAO = new UsuarioDAOImpl();
 //		usuarioDAO.adiciona(usuario);
-//		
-//		Usuario usuario2 = new Usuario("Luciene Alves Medeiros de Lima", "22222222222", "luciene@esqueci.com", "55-XX-2222-2222");
-//		UsuarioDAO usuarioDAO2 = new UsuarioDAO();
-//		usuarioDAO.adiciona(usuario2);
-//		
 		
-		UsuarioDAOImpl usuarioDAO3 = new UsuarioDAOImpl();
+//      excluir
+//		Usuario usuario = new Usuario("Matheus Alves Medeiros de Lima", "33333333333", "matheus@esqueci.com", "55-XX-3333-3333");
+//		usuario.setId((long) 4);
+//		UsuarioDAO usuarioDAO = new UsuarioDAOImpl();
+//		usuarioDAO.exclui(usuario);
 		
-		List<UsuarioDTO> usuarios = usuarioDAO3.getUsuarios();
+//      alterei
+		Usuario usuario = new Usuario("Matheus Alves de Lima", "33333333334", "matheus2@esqueci.com", "55-XX-3333-3334");
+		usuario.setId((long) 5);
+		UsuarioDAO usuarioDAO = new UsuarioDAOImpl();
+		usuarioDAO.atualiza(usuario);
+
+
 		
-		for (UsuarioDTO usuarioDTO : usuarios) {
-			System.out.println(usuarioDTO);
+		
+		//UsuarioDAOImpl usuarioDAO3 = new UsuarioDAOImpl();
+		
+		List<Usuario> usuarios = usuarioDAO.getUsuarios();
+		
+		for (Usuario user : usuarios) {
+			System.out.println(user);
 		}
 		
 		
