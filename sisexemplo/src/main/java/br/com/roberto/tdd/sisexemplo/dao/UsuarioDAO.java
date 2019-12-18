@@ -6,7 +6,7 @@ import br.com.roberto.tdd.sisexemplo.model.Usuario;
 
 public interface UsuarioDAO {
 
-	void adiciona(Usuario usuario);
+	boolean adiciona(Usuario usuario);
 	
 	void atualiza(Usuario usuario);
 	

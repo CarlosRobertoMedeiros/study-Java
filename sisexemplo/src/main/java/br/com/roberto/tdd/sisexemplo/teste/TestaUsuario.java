@@ -11,9 +11,9 @@ public class TestaUsuario {
 	public static void main(String[] args) {
 		
 //      Incluir
-//		Usuario usuario = new Usuario("Matheus Alves Medeiros de Lima", "33333333333", "matheus@esqueci.com", "55-XX-3333-3333");
-//		UsuarioDAO usuarioDAO = new UsuarioDAOImpl();
-//		usuarioDAO.adiciona(usuario);
+		Usuario usuario = new Usuario("Matheus Alves Medeiros de Lima", "33333333333", "matheus@esqueci.com", "55-XX-3333-3333");
+		UsuarioDAO usuarioDAO = new UsuarioDAOImpl();
+		usuarioDAO.adiciona(usuario);
 		
 //      excluir
 //		Usuario usuario = new Usuario("Matheus Alves Medeiros de Lima", "33333333333", "matheus@esqueci.com", "55-XX-3333-3333");
@@ -22,10 +22,11 @@ public class TestaUsuario {
 //		usuarioDAO.exclui(usuario);
 		
 //      alterei
-		Usuario usuario = new Usuario("Matheus Alves de Lima", "33333333334", "matheus2@esqueci.com", "55-XX-3333-3334");
-		usuario.setId((long) 5);
-		UsuarioDAO usuarioDAO = new UsuarioDAOImpl();
-		usuarioDAO.atualiza(usuario);
+		/*
+		 * Usuario usuario = new Usuario("Matheus Alves de Lima", "33333333334",
+		 * "matheus2@esqueci.com", "55-XX-3333-3334"); usuario.setId((long) 5);
+		 * UsuarioDAO usuarioDAO = new UsuarioDAOImpl(); usuarioDAO.atualiza(usuario);
+		 */
 
 
 		

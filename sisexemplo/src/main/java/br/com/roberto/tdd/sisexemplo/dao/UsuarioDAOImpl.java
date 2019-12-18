@@ -25,11 +25,11 @@ public class UsuarioDAOImpl implements UsuarioDAO {
 	public UsuarioDAOImpl() {
 	}
 
-	@Override
-	public void adiciona(Usuario usuario) {
+	public boolean adiciona(Usuario usuario) {
 		String sql = COMANDO_INSERIR_USUARIO;
 		Connection connection = null;
 		PreparedStatement statement = null;
+		boolean result = false;
 		try {
 			int i = 1;
 			connection = new DBConnection().getConnection();
@@ -40,6 +40,7 @@ public class UsuarioDAOImpl implements UsuarioDAO {
 			statement.setString(i++, usuario.getTelefone());
 			statement.execute();
 			statement.close();
+			return result = true;
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		} finally {
@@ -58,7 +59,6 @@ public class UsuarioDAOImpl implements UsuarioDAO {
 		}
 	}
 
-	@Override
 	public void atualiza(Usuario usuario) {
 
 		String sql = COMANDO_ATUALIZAR_USUARIO;
@@ -98,7 +98,7 @@ public class UsuarioDAOImpl implements UsuarioDAO {
 
 	}
 
-	@Override
+
 	public void exclui(Usuario usuario) {
 
 		Connection connection = null;
@@ -133,7 +133,7 @@ public class UsuarioDAOImpl implements UsuarioDAO {
 
 	}
 
-	@Override
+
 	public Usuario getUsuarioById(int id) {
 		String sql = COMANDO_LISTAR_USUARIO;
 		Usuario usuario = null;
@@ -178,7 +178,7 @@ public class UsuarioDAOImpl implements UsuarioDAO {
 
 	}
 
-	@Override
+
 	public List<Usuario> getUsuarios() {
 		String sql = COMANDO_LISTAR_USUARIOS;
 		Connection connection = null;
@@ -191,7 +191,7 @@ public class UsuarioDAOImpl implements UsuarioDAO {
 			connection = new DBConnection().getConnection();
 			statement = connection.createStatement();
 			resultSet = statement.executeQuery(sql);
-			usuarios = new ArrayList<>();
+			usuarios = new ArrayList<Usuario>();
 
 			while (resultSet.next()) {
 				usuario = new Usuario();
